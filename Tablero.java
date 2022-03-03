@@ -21,6 +21,7 @@ public class Tablero {
 
             
             if (fichas.get(indice).posicion >= casillas){
+                break;
             }
             else {
                 indice = indice +1;
